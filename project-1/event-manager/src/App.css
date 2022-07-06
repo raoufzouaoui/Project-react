@@ -1,0 +1,138 @@
+body
+{
+  border-radius: 2%;
+  background-color: pink;
+  height: 100vh;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.79rem;
+}
+.article{
+  display: flex;
+  padding-top: 5%;
+}
+.namedate{
+  margin-left: 4%;
+}
+
+.namedate h4{
+  margin-top: 0;
+}
+.namedate p{
+  margin-top: 0;
+  color:#8797a7;
+}
+
+img {
+  width: 28%;
+  height: 35%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+  
+}
+
+.center {
+  border-radius: 1%;
+  padding-left: 3%;
+  background-color: white;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 2%;
+  filter:drop-shadow(0 0 0.30rem black);
+  }
+
+.app h3{
+  font-weight: normal;
+  text-transform: none;
+  margin-bottom: 2rem;
+}
+.container{
+  text-align: center;
+}
+
+ .buttondelete {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  font-size:x-large;
+  border-radius: 5px;
+  background-color: pink;
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  cursor: pointer;
+  margin-right:1%;
+  width:80%;
+}
+
+
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+  img{
+    
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+
+@media screen and (max-width: 325px) {
+  h1,
+  h2,
+  h3,
+  h4,p{
+    font-size: 40%;
+  }
+  .buttondelete{
+    font-size: 55%;
+  }
+}

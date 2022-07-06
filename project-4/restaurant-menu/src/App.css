@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+img{
+  width:30%;
+  border-radius:2% ;
+  border: 3px solid rgb(166, 135, 135);
+  filter: drop-shadow(0 0 0.20rem black);
+}
+.section{
+  margin-top: 3%;
+  
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0 0.40rem rgb(106, 12, 12));
+}
+.menu-item{
+  display: flex;
+  border-radius:2% ;
+  margin-bottom: 4%;
+  filter: drop-shadow(0 0 0.20rem black);
+}
+.desc{
+  padding-bottom: 5%;
+}
+.title-price{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+  filter: drop-shadow(0 0 0.10rem rgb(255, 255, 255));
+}
+.title-price h3{
+  margin-right: 37%;
+  filter: drop-shadow(0 0 0.10rem rgb(90, 80, 80));
+}
+
+.menu-item .info{
+  margin-left: 4%;
+}
+.filter-btn{
+  margin-right: 3%;
+  color: rgb(107, 107, 51);
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.10rem rgb(162, 193, 77));
+  font-size: 170%;
+
+}
+.container{
+  text-transform: capitalize;
+  background-color: rgb(213, 219, 154);
+  border-radius: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 0%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  gap: 1rem 2rem;
+  width:70%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
